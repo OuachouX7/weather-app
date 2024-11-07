@@ -28,7 +28,7 @@ const Weather = () => {
         setcity(c);
     }
 
-    const apiKey = '6554336c21ed2fa9b8976733f9d7d56a';
+    
 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
